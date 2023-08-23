@@ -12,12 +12,10 @@ terraform {
 variable "endpoint" {
   type        = string
   description = "TMC endpoint"
-  default = "centraltanzuseamericas.tmc.cloud.vmware.com"
 }
 variable "vmw_cloud_api_token" {
   type        = string
   description = "TMC API Token"
-  default = "wzRgu1UO0wC46vt9-WJWGPJNp_d10g8bqWV-xNv6ROI4gu7ggA6taoGV8A39mRrr"
 }
 
 provider "tanzu-mission-control" {
