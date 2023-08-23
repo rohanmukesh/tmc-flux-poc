@@ -4,7 +4,7 @@ terraform {
   required_providers {
     tanzu-mission-control = {
       source = "vmware/tanzu-mission-control"
-      version = "1.0.1"    # it's the provider version and you can change it as version changes
+      version = "1.2.1"    # it's the provider version and you can change it as version changes
     }
   }
 }
